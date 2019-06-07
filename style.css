@@ -1,0 +1,48 @@
+body {
+    margin: 25;
+    margin-top: 50px;
+    font-family: sans-serif; /* add this line */
+}
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    line-height: 5px;
+    background-color: greenyellow;
+}
+header * {
+    display:inline;
+}
+header ul {
+    padding: 0;
+}
+header li {
+    margin-left: 20px;
+}
+#hero .profile-imp {
+    width: 300px;
+    border-radius: 50%; /* Add this line */
+}
+footer {
+    text-align: center;
+    padding: 50ps;
+}
+/* Add everything below here */
+#hero img{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+#hero h1 {
+    font-size: 1.5em;
+}
+section h2 {
+    font-size: 1em;
+}
+header a {
+    text-decoration: none;
+    color: red;
+}
